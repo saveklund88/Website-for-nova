@@ -10,6 +10,46 @@
 
 
 
+/*TEXT STYLES*/
+
+.header {
+    font-size: 16pt;
+    margin-top: 20px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+}
+
+.maintext {
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+
+
+li {
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+/*Images*/
+
+.header__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/*Containers*/
+
+.activities__container,
+.about__paragraph {
+    padding-left: 20px;
+}
 
 .page__container {
 
@@ -19,40 +59,61 @@
     padding-left: 20px;
 }
 
+
+
 .card {
     margin: auto;
     margin-top: 20px;
+    width: 350px;
 }
 
-.header__img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+/*Flex*/
+
+.card__flex {
+
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.about__header {
-    font-size: 14pt;
-    margin-top: 20px;
+.carouselcontainer {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .carousel__text {
-    position: absolute;
-    bottom: 20px;
-    color: black;
-    font-weight: 600;
+    position: relative;
+    bottom: 150px;
     width: auto;
     padding: 10px;
     background-color: white;
     opacity: 0.5;
+    }
+
+
+
+  @media only screen and (max-width: 800px) {
+ 
+    .carouselcontainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+    }
+
+    .carousel__text {
+        position: static !important;
+        color: black;
+        font-weight: 600;
+        width: auto;
+        padding: 20px;
+        background-color: white;
+        opacity: 0.5;
+    
+      }
 
   }
+
   
-
-  .activities__header {
-    font-family: 'Nunito', sans-serif;
-    margin-top: 30px;
-    font-size: 25pt;
-    font-weight: 600;
-  }
-
   
