@@ -12,6 +12,14 @@
 
 /*TEXT STYLES*/
 
+.staff__header {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .header {
     font-size: 16pt;
     margin-top: 20px;
