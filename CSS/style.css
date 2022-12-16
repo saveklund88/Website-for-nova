@@ -4,6 +4,13 @@
 /*Nunito*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
+
+/*Prompt*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+
+
+
+
 .page__container {
 
     max-width: 900px;
@@ -18,9 +25,9 @@
 }
 
 .header__img {
-    max-width: 900px;
-    height: 300px;
-    background-color: rgb(201, 180, 221);
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .about__header {
@@ -30,10 +37,13 @@
 
 .carousel__text {
     position: absolute;
-    bottom: 8px;
-    right: 40px;
-    color: white;
-    max-width: 500px;
+    bottom: 20px;
+    color: black;
+    font-weight: 600;
+    width: auto;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.5;
 
   }
   
